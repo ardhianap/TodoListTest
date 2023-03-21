@@ -35,8 +35,8 @@ namespace TodoListTest.Controllers
                 statusCode = 200;
                 dataResponse = await activityProvider.GetActivity();
 
-                response.Success = "Success";
-                response.Message = "Success";
+                response.Success = "Successs";
+                response.Message = "Successs";
                 response.Data = dataResponse;
 
             }
