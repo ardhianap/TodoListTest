@@ -42,8 +42,8 @@ namespace TodoListTest.Controllers
                     dataResponse = await todoProvider.GetTodoId(activity_group_id);
                 }
 
-                response.Success = "Success";
-                response.Message = "Success";
+                response.Success = "Successs";
+                response.Message = "Successs";
                 response.Data = dataResponse;
 
             }
